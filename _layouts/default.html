@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="site-header">
+        <h1 class="site-title">{{ site.title }}</h1>
+        <p class="site-subtitle">Work in Progress: This website is currently being built!</p>
+        
+        <nav class="nav-bar">
+          <div class="nav-links">
+            {% for link in site.navbar_links %}
+              <a href="{{ link[1] | relative_url }}" 
+                 class="nav-item {% if page.url == link[1] %}active{% endif %}"
+                 {% if link[1] contains '.pdf' %}target="_blank"{% endif %}>
+                {{ link[0] }}
+              </a>
+            {% endfor %}
+          </div>
+
+          <div class="nav-icons">
+            <a href="mailto:a.theloudis@tilburguniversity.edu" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://scholar.google.com/citations?user=xA-P3JgAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </a>
+            <a href="https://x.com/AlexTheloudis" target="_blank" rel="noopener" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://github.com/theloudis" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fa-brands fa-square-github"></i>
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <main class="content">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+</html>
