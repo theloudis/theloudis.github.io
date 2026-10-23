@@ -3,6 +3,8 @@ author: Alexandros Theloudis
 
 navbar_links:
   About: /
+  Test-1: /about-test1/
+  Test-2: /about-test2/
   CV: /files/CV/CV_Alex_Theloudis.pdf
   Research: /research/
   Teaching: /teaching/
