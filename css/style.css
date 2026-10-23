@@ -43,31 +43,38 @@ body {
 
 .nav-bar {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: stretch;
   border-top: 2px solid #000000;
   border-bottom: 2px solid #000000;
   width: 100%;
-  min-height: 36px;
 }
 
 .nav-links {
+  width: 100%;
+  border-bottom: 2px solid #000000;
   display: flex;
   flex-wrap: nowrap;
 }
 
 .nav-item {
+  flex: 1 1 auto;
   display: flex;
   align-items: center;
-  padding: 0 24px;
+  justify-content: center;
+  padding: 0 14px;
   border-right: 2px solid #000000;
   text-decoration: none;
   color: #000000;
   font-size: 20px;
   font-weight: 400;
-  line-height: 33px;
+  line-height: 35px;
   white-space: nowrap;
   transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.nav-item:last-child {
+  border-right: none;
 }
 
 .nav-item:hover {
@@ -81,10 +88,12 @@ body {
 }
 
 .nav-icons {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 10px;
-  padding-right: 4px;
+  padding: 6px 6px;
 }
 
 .nav-icons a {
@@ -262,33 +271,13 @@ body {
 }
 
 @media (max-width: 900px) and (min-width: 769px) {
-  .nav-bar {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
   .nav-links {
-    width: 100%;
-    border-bottom: 2px solid #000000;
-    display: flex;
     flex-wrap: wrap;
   }
 
   .nav-item {
-    flex: 1 1 auto;
-    justify-content: center;
-    padding: 0 12px;
+    padding: 0 10px;
     font-size: 18px;
-  }
-
-  .nav-item:last-child {
-    border-right: none;
-  }
-
-  .nav-icons {
-    width: 100%;
-    justify-content: flex-end;
-    padding: 6px 6px;
   }
 }
 
@@ -319,8 +308,7 @@ body {
     white-space: normal;
   }
 
-  .nav-item:nth-child(3),
-  .nav-item:nth-child(6) {
+  .nav-item:nth-child(3n) {
     border-right: none;
   }
 
@@ -330,19 +318,8 @@ body {
     justify-content: center;
     gap: 12px;
     padding: 10px 4px;
-    border-bottom: 2px solid #000000;
-    grid-column: span 2;
-  }
-
-  .nav-bar > a.nav-item-contact,
-  .nav-bar .nav-item:nth-child(7) {
-    grid-column: span 1;
-    border-right: 2px solid #000000;
     border-bottom: none;
-  }
-
-  .nav-icons {
-    border-bottom: none;
+    grid-column: span 3;
   }
 }
 
@@ -391,7 +368,7 @@ body {
 .video-box {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  padding-bottom: 56.25%;
   height: 0;
   margin-bottom: 10px;
 }

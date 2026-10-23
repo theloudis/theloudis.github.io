@@ -4,14 +4,26 @@ title: About Test 2
 permalink: /about-test2/
 ---
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
-  body {
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+  body, .content h1, .content h2, .content h3, .content h4 {
     font-family: 'PT Sans', sans-serif;
     background-color: #f0f0f0;
+  }
+  .site-title {
+    font-size: 51px;
+  }
+  .site-subtitle {
+    font-size: 18px;
+  }
+  .nav-item {
+    font-size: 21px;
+  }
+  .content h2 {
+    font-size: 28px;
+  }
+  .content p {
+    font-size: 19.5px;
   }
 </style>
 

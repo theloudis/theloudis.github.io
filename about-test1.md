@@ -4,14 +4,26 @@ title: About Test 1
 permalink: /about-test1/
 ---
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
-
 <style>
-  body {
+  @import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
+  body, .content h1, .content h2, .content h3, .content h4 {
     font-family: 'Average Sans', sans-serif;
     background-color: #fcfaf6;
+  }
+  .site-title {
+    font-size: 51px;
+  }
+  .site-subtitle {
+    font-size: 18px;
+  }
+  .nav-item {
+    font-size: 21px;
+  }
+  .content h2 {
+    font-size: 28px;
+  }
+  .content p {
+    font-size: 19.5px;
   }
 </style>
 
