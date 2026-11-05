@@ -1,0 +1,540 @@
+/* Main colors, fonts and sizes */
+:root {
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --text-size: 18px;
+  --text-lh: 1.5;
+  --para-gap: 18px;
+  --entry-gap: 30px;
+  --link-color: #000000;
+  --link-hover: #0000FF;
+}
+
+/* Reset default spacing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic page text and background */
+body {
+  font-family: var(--font-body);
+  color: #000000;
+  background-color: #ffffff;
+  font-size: var(--text-size);
+  line-height: var(--text-lh);
+  font-weight: 400;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Centers the page content */
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 55px 20px 50px 20px;
+}
+
+/* Space below the header */
+.site-header {
+  margin-bottom: 40px;
+}
+
+/* Big name at the top */
+.site-title {
+  font-family: inherit;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* Red line under the title */
+.site-subtitle {
+  font-size: 17px;
+  color: #c94a4a;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Menu bar with top and bottom lines */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  width: 100%;
+}
+
+/* Group of menu links */
+.nav-links {
+  width: auto;
+  border-bottom: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* Single menu link */
+.nav-item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 28px;
+  border-right: 2px solid #000000;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  white-space: nowrap;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+/* Last menu link border */
+.nav-item:last-child {
+  border-right: 2px solid #000000;
+}
+
+/* Menu link on mouse hover */
+.nav-item:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+  background-color: #f4f7fa;
+}
+
+/* Current page in the menu */
+.nav-item.active {
+  font-style: italic;
+}
+
+/* Icons on the right of the menu */
+.nav-icons {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 6px 6px;
+}
+
+/* Single menu icon */
+.nav-icons a {
+  color: #000000;
+  font-size: 17px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.15s ease;
+}
+
+/* Menu icon on mouse hover */
+.nav-icons a:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+/* Main page content text */
+.content {
+  font-family: var(--font-body);
+  font-size: var(--text-size);
+  line-height: var(--text-lh);
+  color: #000000;
+}
+
+/* Text style for common content elements */
+.content p,
+.content li,
+.content td,
+.content th,
+.content dd,
+.content dt,
+.content blockquote {
+  font-family: inherit;
+  font-size: var(--text-size);
+  line-height: var(--text-lh);
+  letter-spacing: normal;
+  word-spacing: normal;
+  color: #000000;
+  text-align: left;
+}
+
+/* Space below paragraphs */
+.content p {
+  margin-bottom: var(--para-gap);
+}
+
+/* Spacing for lists */
+.content ul,
+.content ol {
+  margin: 0 0 var(--para-gap) 22px;
+}
+
+/* Bold text weight */
+.content strong,
+.content b {
+  font-weight: 600;
+}
+
+/* Links in content */
+.content a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+/* Links in content on mouse hover */
+.content a:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+  opacity: 1;
+}
+
+/* All headings in content */
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+  font-family: var(--font-body);
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 18px;
+  color: #000000;
+}
+
+/* Keeps bold text in headings normal */
+.content h1 strong,
+.content h1 b,
+.content h2 strong,
+.content h2 b {
+  font-weight: 400;
+}
+
+/* Medium heading size */
+.content h2 {
+  font-size: 26px;
+  line-height: 1.3;
+}
+
+/* Small heading size */
+.content h3 {
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+/* About section layout */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+/* About section text */
+.about-text {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Box around the about photo */
+.about-photo-wrapper {
+  position: relative;
+  width: 280px;
+  flex-shrink: 0;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+/* Black frame behind the photo */
+.about-photo-wrapper::after {
+  content: "";
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  bottom: -18px;
+  width: 82%;
+  border: 2px solid #000000;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* The about photo itself */
+.about-photo {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: block;
+}
+
+/* Research section heading */
+.content h2.research-heading,
+.research-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400 !important;
+  margin-top: 35px;
+  margin-bottom: 26px;
+  color: #000000;
+}
+
+/* Space between papers */
+.paper-entry {
+  margin-bottom: var(--entry-gap);
+}
+
+/* No space after the last paper */
+.paper-entry:last-child {
+  margin-bottom: 0;
+}
+
+/* No space around paper paragraphs */
+.paper-entry p {
+  margin: 0;
+}
+
+/* Paper title */
+.content .paper-title {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.35;
+  color: #000000;
+  margin-bottom: 2px;
+}
+
+/* Text style for paper details */
+.content .paper-meta,
+.content .paper-bullets,
+.content .paper-links,
+.content .abstract-toggle,
+.content .abstract-box {
+  font-size: var(--text-size);
+  line-height: var(--text-lh);
+  color: #000000;
+}
+
+/* Paper bullet list spacing */
+.paper-bullets {
+  margin: 2px 0 0 20px;
+}
+
+/* Row of paper links */
+.paper-links {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 0;
+  align-items: center;
+}
+
+/* Abstract show or hide button */
+.content .abstract-toggle {
+  color: var(--link-color);
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Abstract button on mouse hover */
+.content .abstract-toggle:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+  opacity: 1;
+}
+
+/* Hidden abstract text */
+.abstract-box {
+  display: none;
+  margin-top: 8px;
+  text-align: left;
+}
+
+/* Shows the abstract when opened */
+.abstract-box.open {
+  display: block;
+}
+
+/* Single large video box */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+/* Video inside the large box */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #dddddd;
+}
+
+/* Grid of three videos */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 20px;
+}
+
+/* Single item in the video grid */
+.video-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Video box in the grid */
+.video-box {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-bottom: 10px;
+}
+
+/* Video inside the grid box */
+.video-box iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #dddddd;
+}
+
+/* Text under each video */
+.content .video-desc {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #000000;
+  text-align: left;
+}
+
+/* Medium screens: menu stacks */
+@media (max-width: 1100px) {
+  /* Menu bar stacks vertically */
+  .nav-bar {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  /* Menu links take full width */
+  .nav-links {
+    width: 100%;
+    border-bottom: 2px solid #000000;
+  }
+
+  /* Menu links stretch to fill */
+  .nav-item {
+    flex: 1 1 auto;
+    padding: 0 14px;
+  }
+
+  /* Removes border on last link */
+  .nav-item:last-child {
+    border-right: none;
+  }
+
+  /* Icons take full width */
+  .nav-icons {
+    width: 100%;
+  }
+}
+
+/* Tablet screens: smaller menu links */
+@media (max-width: 900px) and (min-width: 769px) {
+  /* Smaller menu link spacing */
+  .nav-item {
+    padding: 0 10px;
+    font-size: 18px;
+  }
+}
+
+/* Tablet screens: two video columns */
+@media (max-width: 900px) {
+  /* Videos in two columns */
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Phone screens: menu becomes a grid */
+@media (max-width: 768px) {
+  /* Menu as a three column grid */
+  .nav-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid #000000;
+  }
+
+  /* Links join the menu grid */
+  .nav-links {
+    display: contents;
+  }
+
+  /* Menu link as grid box */
+  .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 10px 4px;
+    font-size: 16px;
+    line-height: 1.2;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    text-align: center;
+    white-space: normal;
+  }
+
+  /* No right border on every third link */
+  .nav-item:nth-child(3n) {
+    border-right: none;
+  }
+
+  /* Icons row across the bottom */
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px 4px;
+    border-bottom: none;
+    grid-column: span 3;
+    width: 100%;
+  }
+}
+
+/* Small screens: smaller title and stacked about */
+@media (max-width: 680px) {
+  /* Smaller site title */
+  .site-title {
+    font-size: 40px;
+  }
+
+  /* Photo above text in about */
+  .about-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+/* Very small screens: one video column */
+@media (max-width: 600px) {
+  /* Videos in one column */
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}

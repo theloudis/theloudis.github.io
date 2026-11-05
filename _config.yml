@@ -1,0 +1,18 @@
+title: Alexandros Theloudis
+author: Alexandros Theloudis
+
+navbar_links:
+  About: /
+  CV: /files/CV/AlexTheloudis_CV.pdf
+  Research: /research/
+  Teaching: /teaching/
+  Outreach: /outreach/
+  Contact: /contact/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - .gitignore
