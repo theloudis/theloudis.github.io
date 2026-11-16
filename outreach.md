@@ -6,7 +6,7 @@ permalink: /outreach/
 
 <h2 class="research-heading">Media</h2>
 
-<p>My work has been covered in the following media:</p>
+<p>My work has been covered in the following media (all media below are clickable):</p>
 
 <ul class="media-list">
   <li>The student magazine of Asset Econometrics has a short summary of my work on <strong>Consumption Partial Insurance in the Presence of Tail Income Risk</strong>.</li>
