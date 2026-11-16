@@ -13,7 +13,7 @@ title: About
       My research is in quantitative household economics and its central theme is the household micro-foundations of economic inequality. In other words, I study the interplay between inequality and household behavior.
     </p>
     <p>
-      <strong>News:</strong> The <a href="https://www.nwo.nl/en/researchprogrammes/open-competition-ssh/granted-projects" target="_blank">Dutch Research Council</a> awarded <a href="https://sites.google.com/site/cettolinelena/home" target="_blank">Elena Cettolin</a>, <a href="https://sites.google.com/site/psdalton/home" target="_blank">Patricio Dalton</a> and me a large grant for our project on Digital Technology and Women Empowerment in Kenya. It'll be a multi-arm RCT together with structural modelling!
+      <strong>News:</strong> The <a href="https://www.nwo.nl/en/researchprogrammes/open-competition-ssh/granted-projects" target="_blank">Dutch Research Council</a> awarded <a href="https://sites.google.com/site/cettolinelena/home" target="_blank">Elena Cettolin</a>, <a href="https://sites.google.com/site/psdalton/home" target="_blank">Patricio Dalton</a> and me a grant for our project on Digital Technology and Women Empowerment in Kenya.
     </p>
   </div>
 

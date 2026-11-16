@@ -8,7 +8,7 @@ permalink: /teaching/
 
 <div class="paper-entry">
   <div class="paper-meta">
-    <b> Microeconometrics </b>, MSc Econometrics &amp; Mathematical Economics (Tilburg)<br>
+    <b> Microeconometrics</b>, MSc Econometrics &amp; Mathematical Economics (Tilburg)<br>
     <b> Econometrics for Policy Analysis</b>, BSc Econometrics &amp; Operations Research (Tilburg) <br>
     <b> Econometrics for Data Science</b>, BSc Data Science (Tilburg, joint with TU Eindhoven)
   </div>
@@ -22,9 +22,9 @@ permalink: /teaching/
     <b> Moments-Based Methods for Structural Estimation</b>, PhD workshop (LISER) <br>
     <b> Research Methods: Mathematics and Statistics</b>, MSc Economics, (UCL) <br>
     <b> Research Methods: Econometric and Programming Skills</b>, MSc Economics (UCL)<br>
-    <b> Econometrics, BSc Economics</b> (UCL)<br>
-    <b> Microeconomics, BSc Economics</b> (UCL)<br>
-    <b> Macroeconomics, BSc Economics</b> (UCL)
+    <b> Econometrics</b>, BSc Economics (UCL)<br>
+    <b> Microeconomics</b>, BSc Economics (UCL)<br>
+    <b> Macroeconomics</b>, BSc Economics (UCL)
   </div>
 </div>
 

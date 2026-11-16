@@ -6,10 +6,10 @@ permalink: /outreach/
 
 <h2 class="research-heading">Media</h2>
 
-<p>My work has been covered in the following media:</p>
+<p>My work has been covered in the following media (all media below are clickable):</p>
 
 <ul class="media-list">
-  <li>The student magazine of Asset Econometrics has a short summary of my work on <strong>Consumption Partial Insurance in the Presence of Tail Income Risk</strong>.</li>
+  <li>The student magazine of <a href="{{ '/files/Media/Nekst_Asset_Econometrics_Summer_2023.pdf' | relative_url }}" target="_blank">Asset Econometrics</a> has a short summary of my work on <strong>Consumption Partial Insurance in the Presence of Tail Income Risk</strong>.</li>
   <li><a href="https://www.tilburguniversity.edu/current/news/more-news/income-shock-shifts-power-dynamics-relationship" target="_blank">Tilburg University</a> and the <a href="https://universonline.nl/nieuws/2026/01/28/geldstress-in-een-relatie-onthult-wie-de-touwtjes-echt-in-handen-heeft/" target="_blank">Univers magazine</a> have covered my work on <strong>Commitment and the Dynamics of Household Labour Supply</strong>.</li>
   <li><a href="https://www.washingtonpost.com/people/andrew-van-dam/" target="_blank">Andrew Van Dam</a> and <a href="https://www.washingtonpost.com/road-to-recovery/2021/02/16/pandemic-togetherness-never-have-so-many-spent-so-much-time-with-so-few/" target="_blank">The Washington Post</a> write on togetherness during the Covid19 pandemic and refer to my work on <strong>Togetherness in the Household</strong>.</li>
   <li>This <a href="https://cepr.org/voxeu/columns/private-and-joint-activities-household-evolving-costs-and-benefits-togetherness" target="_blank">VoxEU</a> column summarizes <strong>Togetherness in the Household</strong> and discusses how the Covid19 lockdowns may affect family welfare. The <a href="https://res.org.uk/mediabriefing/togetherness-in-the-household-evidence-on-how-couples-value-time-spent-together/" target="_blank">Royal Economic Society</a>, <a href="https://www.nu.nl/geldzaken/6205710/de-waarde-van-gezinstijd-210-euro-voor-een-uurtje-met-de-kinderen.html?referrer=https%3A%2F%2Ftheloudis.net%2F" target="_blank">NU Netherlands</a>, and <a href="{{ '/files/Media/Nekst_Asset_Econometrics_February_2023.pdf' | relative_url }}" target="_blank">Asset Econometrics</a> have also covered this work.</li>
