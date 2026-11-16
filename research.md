@@ -92,7 +92,7 @@ permalink: /research/
     <span class="abstract-toggle" onclick="toggleAbstract(this, 'abs-togetherness')">▷ Abstract</span>
     <a href="{{ '/files/Slides/Togetherness_Slides.pdf' | relative_url }}" target="_blank">Slides</a>
     <a href="https://github.com/theloudis/Togetherness" target="_blank">Replication package</a>
-    <a href="{{ '/files/Versions/Togetherness_Oct2021.pdf' | relative_url }}" target="_blank">Version October 2021</a>
+    <a href="{{ '/files/Papers/Togetherness_Oct2021.pdf' | relative_url }}" target="_blank">Version October 2021</a>
     <a href="https://cepr.org/voxeu/columns/private-and-joint-activities-household-evolving-costs-and-benefits-togetherness" target="_blank">Media: VoxEU</a>
     <a href="{{ '/outreach/' | relative_url }}">More media</a>
   </div>
@@ -113,7 +113,7 @@ permalink: /research/
     <a href="{{ '/files/Slides/Theloudis_HeterogeneousFamilies_Slides.pdf' | relative_url }}" target="_blank">Slides</a>
     <a href="{{ '/files/Appendix/Appendix_Consumption_Inequality.pdf' | relative_url }}" target="_blank">Online appendix</a>
     <a href="https://github.com/theloudis/Heterogeneous-Families" target="_blank">Replication package</a>
-    <a href="{{ '/files/Versions/Theloudis_HeterogeneousFamilies.pdf' | relative_url }}" target="_blank">Version May 2021</a>
+    <a href="{{ '/files/Papers/Theloudis_HeterogeneousFamilies.pdf' | relative_url }}" target="_blank">Version May 2021</a>
   </div>
   <div id="abs-heterogeneous" class="abstract-box">
     What does preference heterogeneity imply for consumption inequality? This paper studies the link from wage to consumption inequality within a lifecycle model of consumption and family labor supply. Its distinctive feature is that households have general heterogeneous preferences over consumption and labor supply. The paper shows identification of the joint distribution of unobserved household preferences separately from the observed distributions of incomes and outcomes. Estimation on data from the Panel Study of Income Dynamics in the US reveals substantial unexplained heterogeneity in consumption preferences but little unexplained heterogeneity in labor supply preferences. Preference heterogeneity accounts for about a third of consumption inequality in recent years and implies, on average, lower partial insurance of wage shocks compared to recent studies in the literature.
