@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://theloudis.com/sitemap.xml
