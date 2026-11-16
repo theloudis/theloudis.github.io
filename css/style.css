@@ -54,10 +54,10 @@ body {
   color: #000000;
 }
 
-/* Red line under the title */
+/* Line under the title */
 .site-subtitle {
   font-size: 17px;
-  color: #c94a4a;
+  color: #000000;
   text-align: center;
   margin-bottom: 24px;
 }
