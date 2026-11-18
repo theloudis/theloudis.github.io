@@ -10,8 +10,6 @@ title: About
       I am an Assistant Professor in the <a href="https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/eor" target="_blank">Department of Econometrics and Operations Research</a> at Tilburg University. I received my PhD in Economics from <a href="https://www.ucl.ac.uk/social-historical-sciences/economics" target="_blank">University College London</a>.
     </p>
     <p>
-    </p>
-    <p>
       My research focuses on questions in income and consumption dynamics, household behavior, and labor economics, from both micro and macro perspectives.
     </p>
     <p>

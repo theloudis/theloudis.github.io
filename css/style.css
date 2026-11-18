@@ -113,7 +113,7 @@ body {
 /* Current page in the menu */
 .nav-item.active {
   font-style: italic;
-  background-color: #dfe7f1;
+  background-color: #e0e8f3;
 }
 
 /* Icons on the right of the menu */
@@ -234,7 +234,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 60px;
+  gap: 100px;
 }
 
 /* About section text */
