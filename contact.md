@@ -17,9 +17,10 @@ permalink: /contact/
   <div class="paper-meta">
     Office K508<br>
     Department of Econometrics and Operations Research<br>
-    School of Economics and Management<br>
+    Tilburg School of Economics and Management<br>
     Tilburg University<br>
-    5037 AB Tilburg<br>
+    P.O. box 90153<br>
+    5000 LE Tilburg<br>
     The Netherlands
   </div>
 </div>
