@@ -113,7 +113,7 @@ body {
 /* Current page in the menu */
 .nav-item.active {
   font-style: italic;
-  background-color: #faeed7;
+  background-color: #f4f7fa;
 }
 
 /* Icons on the right of the menu */
