@@ -5,6 +5,7 @@
   --text-lh: 1.5;
   --para-gap: 18px;
   --entry-gap: 30px;
+  --text-color: #000000;
   --link-color: #000000;
   --link-hover: #0000FF;
 }
@@ -19,7 +20,7 @@
 /* Basic page text and background */
 body {
   font-family: var(--font-body);
-  color: #000000;
+  color: var(--text-color);
   background-color: #ffffff;
   font-size: var(--text-size);
   line-height: var(--text-lh);
@@ -147,7 +148,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--text-size);
   line-height: var(--text-lh);
-  color: #000000;
+  color: var(--text-color);
 }
 
 /* Text style for common content elements */
@@ -163,7 +164,7 @@ body {
   line-height: var(--text-lh);
   letter-spacing: normal;
   word-spacing: normal;
-  color: #000000;
+  color: var(--text-color);
   text-align: left;
 }
 
@@ -206,7 +207,7 @@ body {
   font-weight: 400;
   letter-spacing: normal;
   margin-bottom: 18px;
-  color: #000000;
+  color: var(--text-color);
 }
 
 /* Keeps bold text in headings normal */
@@ -316,7 +317,7 @@ body {
 .content .abstract-box {
   font-size: var(--text-size);
   line-height: var(--text-lh);
-  color: #000000;
+  color: var(--text-color);
 }
 
 /* Paper bullet list spacing */
