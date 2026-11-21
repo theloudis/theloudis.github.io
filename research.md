@@ -26,7 +26,7 @@ permalink: /research/
 
 <div class="paper-entry">
   <div class="paper-title">
-    <a href="{{ '/files/Papers/GT_Partial_Insurance_Nov2025.pdf' | relative_url }}" target="_blank"><strong>Consumption Partial Insurance in the Presence of Tail Income Risk</strong></a>
+    <a href="https://doi.org/10.1086/744508" target="_blank"><strong>Consumption Partial Insurance in the Presence of Tail Income Risk</strong></a>
   </div>
   <div class="paper-meta">
     with <a href="https://www.mcgill.ca/desautels/anisha-ghosh" target="_blank">A. Ghosh</a>. Forthcoming, <i>Journal of Political Economy - Macro</i>, 2026.
